@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p8669-e122585.adobeaemcloud.com/bin/franklin.delivery/adutta3/eds/main"
+    url: "https://author-p120465-e1171116.adobeaemcloud.com/bin/franklin.delivery/adutta3/eds/main"
     type: "markup"
     suffix: ".html"
