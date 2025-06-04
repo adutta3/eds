@@ -654,11 +654,11 @@ function decorateBlocks(main) {
  */
 async function loadHeader(header) {
   // Create the ESI tag
-  const esiTag = document.createElement('esi:include');
-  esiTag.setAttribute('src', '/nav.plain.html');
+  //const esiTag = document.createElement('esi:include');
+  //esiTag.setAttribute('src', '/nav.plain.html');
   const headerBlock = buildBlock('header', '');
   // Append the ESI tag to the headerBlock
-  headerBlock.appendChild(esiTag);
+  //headerBlock.appendChild(esiTag);
   header.append(headerBlock);
   decorateBlock(headerBlock);
   return loadBlock(headerBlock);
