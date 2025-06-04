@@ -653,12 +653,11 @@ function decorateBlocks(main) {
  * @returns {Promise}
  */
 async function loadHeader(header) {
-    // Create the ESI tag
+  // Create the ESI tag
   const esiTag = document.createElement('esi:include');
   esiTag.setAttribute('src', '/nav.plain.html');
-    // Append the ESI tag to the header
+  // Append the ESI tag to the header
   header.appendChild(esiTag);
-  
   const headerBlock = buildBlock('header', '');
   header.append(headerBlock);
   decorateBlock(headerBlock);
